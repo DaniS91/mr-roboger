@@ -10,11 +10,13 @@ return numArray;
 }
 
 function replaceNumThatContains(numArray) {
- const newArray = numArray.forEach(function(element) {
-  if (element.includes(/[^3]/g)) {
-    element.replace(element, "Won't you be my neighbor?");
-  }
- });
- return newArray;
+  const newArray = [];
+  numArray.forEach(function(element) {
+    if (element === 3) {
+      newArray.push("Won't you be my neighbor?");
+    } else {
+      newArray.push(element);
+    }
+  });
+  return newArray;
 }
-//UI Logic
