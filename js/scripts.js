@@ -9,4 +9,12 @@ for (let i = 0; i <= number; i+=1) {
 return numArray;
 }
 
+function replaceNumThatContains(numArray) {
+ const newArray = numArray.forEach(function(element) {
+  if (element.includes(/[^3]/g)) {
+    element.replace(element, "Won't you be my neighbor?");
+  }
+ });
+ return newArray;
+}
 //UI Logic
