@@ -19,24 +19,29 @@ h2 {
 }
 
 p {
-  color: rgba(90,61,43,255);
+  color: rgba(116,110,110,255);
   font-size: 1.5rem;
 }
 
 label {
-  color: rgba(244,161,39,255);
+  color: rgba(96,183,255,255);
   font-size: 1.5rem;
 }
 
 button {
   font-family: 'Press Start 2P', cursive;
-  color: rgba(90,61,43,255);
+  color: antiquewhite;
   height: 1.25rem;
   outline: none;
   padding: 8px 10px 18px;
-  border: 2px solid rgba(90,61,43,255);
-  background-color: rgba(117,200,174,255);
+  border: 2px solid rgba(116,110,110,255);
+  background-color: rgba(253,71,85,255);
   border-radius: 10px;
+}
+
+img {
+  max-width: 25%;
+  height: auto;
 }
 
 div {
