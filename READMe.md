@@ -56,19 +56,19 @@ _const number = 7;_
 _countUpTo(number);_
 _Expected Output: [0, 1, 2, 3, 4, 5, 6, 7]_
 
-_Test: "It should take an array and replace any element that contains a 3 with the string 'Won't you be my neighbor?'"_
+_Test: "It should take a number input, and first create an array of numbers from 0 to the input number; then replace any element that contains a 3 with the string 'Won't you be my neighbor?'"_
 _Code:_
 _const number = 13;_
 _countUpTo(number);_
 _Expected Output: [0, 1, 2, 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 10, 11, 12, 'Won't you be my neighbor?']_
 
-_Test: "It should also take an array and replace any element that contains a 2 with the string 'Boop!'_
+_Test: "It should take a number input, and first create an array of numbers from 0 to the input number. Then replace any elements that contains a 3 with the string 'Won't you be my neighbor?'; it should then replace any remaining elements that contains a 2 with the string 'Boop!'"_
 _Code:_
 _const number = 12;_
 _countUpTo(number);_
 _Expected Output: [0, 1, 'Boop!', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 10, 11, 'Boop!']_
 
-_Test: "It should also take an array and replace any element that contains a 1 with the string 'Beep!'_
+_Test: "It should take a number input, and first create an array of numbers from 0 to the input number. Then replace any elements that contains a 3 with the string 'Won't you be my neighbor?'; it should then replace any remaining elements that contains a 2 with the string 'Boop!'Then it should also replace any remaining elements that contains a 1 with the string 'Beep!'_
 _Code:_
 _const number = 12;_
 _countUpTo(number);_
