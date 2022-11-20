@@ -16,16 +16,17 @@ const newArray = numArray.map(function(element) {
     return element;
   }
 });
-return newArray;
+return newArray.join(", ");
+
 }
 
 //UI Logic
-function countAndReplace() {
-  
+function handleForm(event) {
+  event.preventDefault();
   const number = document.getElementById("input").value;
   let message = countAndReplace(number);
   document.getElementById("results").innerText = message;
 }
 window.addEventListener("load", function() {
-  document.querySelector("form").addEventListener("submit", countAndReplace);
+  document.querySelector("form").addEventListener("submit", handleForm);
 })
