@@ -2,7 +2,7 @@
 
 #### By _**Dani Steely**_
 
-#### _{Brief description of application}_
+#### _A simple application that translates a user input number into a robot message, replacing some numbers with text_
 
 ## Technologies Used
 
@@ -10,11 +10,12 @@
 * _CSS_
 * _Javascript_
 * _Markdown_
+* _Google Fonts_
 * _TDD method_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This simple application/game uses a form to gather an input number from the user, then returns an array of values created from iterating from 0 - the user input number. Certain numbers in the array are replaced with text. These substitutions include: "Beep!" replaces any number that includes a 1 digit, "Boop!" replaces any number that includes a 2 digit, and "Won't you be my neighbor?" replaces any number that includes a 3 digit. The hierarchy of substition by priority level: 3, 2, 1. The reset button in the results section reloads the location. This project used TDD to build the Business Logic Javascript_
 
 ## Setup/Installation Requirements
 
@@ -28,8 +29,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Known Bugs
 
-*_Any known issues_
-*_should go here_
+*_No known bugs_
 
 ## License
 
