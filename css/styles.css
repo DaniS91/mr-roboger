@@ -1,3 +1,23 @@
 #hidden {
   display: none;
 }
+
+#results {
+  font-family: ;
+}
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+label {
+  font-size: 30px;
+}
+
+body {
+  background-color: darkgrey;
+  font-family: 'Lobster', cursive;
+}
