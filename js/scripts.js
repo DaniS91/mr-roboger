@@ -18,3 +18,5 @@ const newArray = numArray.map(function(element) {
 });
 return newArray;
 }
+
+//UI Logic
