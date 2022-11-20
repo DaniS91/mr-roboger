@@ -26,6 +26,8 @@ function handleForm(event) {
   const number = document.getElementById("input").value;
   let message = countAndReplace(number);
   document.getElementById("results").innerText = message;
+
+  document.getElementById("hidden").removeAttribute("id");
 }
 window.addEventListener("load", function() {
   document.querySelector("form").addEventListener("submit", handleForm);
