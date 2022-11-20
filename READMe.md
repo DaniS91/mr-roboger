@@ -49,15 +49,14 @@ _Email me at danisteelyart@gmail.com_
 
 ## TDD Outline
 
-#### Describe: countUpTo()
+#### Describe: countAndReplace()
 _Test: "It should take number input and return an array of numbers counting from zero to the inputted number."_
 _Code:_
 _const number = 7;_
 _countUpTo(number);_
 _Expected Output: [0, 1, 2, 3, 4, 5, 6, 7]_
 
-#### Describe: replaceNumThatContains()
-_Test: "It should take an array from countUpTo and replace any element that contains a 3 with the string 'Won't you be my neighbor?'"_
+_Test: "It should take an array and replace any element that contains a 3 with the string 'Won't you be my neighbor?'"_
 _Code:_
 _const number = 13;_
 _countUpTo(number);_

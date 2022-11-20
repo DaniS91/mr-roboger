@@ -1,5 +1,3 @@
-//Utility Logic
-
 //Business Logic
 function countAndReplace (number) {
 let numArray = [];
