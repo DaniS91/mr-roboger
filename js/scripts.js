@@ -1,6 +1,6 @@
 //Business Logic
 function countAndReplace (number) {
-let numArray = [];
+const numArray = [];
 for (let i = 0; i <= number; i+=1) {
   numArray.push(i.toString());
 }
@@ -20,3 +20,12 @@ return newArray;
 }
 
 //UI Logic
+function countAndReplace() {
+  
+  const number = document.getElementById("input").value;
+  let message = countAndReplace(number);
+  document.getElementById("results").innerText = message;
+}
+window.addEventListener("load", function() {
+  document.querySelector("form").addEventListener("submit", countAndReplace);
+})
