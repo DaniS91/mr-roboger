@@ -7,7 +7,10 @@ for (let i = 0; i <= number; i+=1) {
 const newArray = numArray.map(function(element) {
   if (element.includes("3")) {
     return "Won't you be my neighbor?";
-  } else {
+  } else if (element.includes("2")) {
+    return "Boop!"
+  }
+  else {
     return element;
   }
 });
