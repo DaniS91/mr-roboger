@@ -29,6 +29,12 @@ function handleForm(event) {
 
   document.getElementById("hidden").removeAttribute("id");
 }
+
+function resetForm(event) {
+  event.preventDefault();
+  location.reload();
+}
 window.addEventListener("load", function() {
   document.querySelector("form").addEventListener("submit", handleForm);
+  document.querySelector("form.output").addEventListener("reset", resetForm);
 })
